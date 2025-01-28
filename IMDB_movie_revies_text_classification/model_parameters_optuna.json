@@ -1,0 +1,67 @@
+[
+    {
+        "layers": [
+            "Embedding",
+            "GlobalAveragePooling1D",
+            "Dense1: 8, activation1: softmax",
+            "Dense2: 2, activation2: relu"
+        ],
+        "vocab_size": 10000,
+        "embedding_dim": 16,
+        "epochs": 5,
+        "batch_size": 32,
+        "test_accuracy": 0.879360020160675
+    },
+    {
+        "layers": [
+            "Embedding",
+            "GlobalAveragePooling1D",
+            "Dense1: 32, activation1: softmax",
+            "Dense2: 2, activation2: softmax"
+        ],
+        "vocab_size": 10000,
+        "embedding_dim": 8,
+        "epochs": 6,
+        "batch_size": 16,
+        "test_accuracy": 0.8792799711227417
+    },
+    {
+        "layers": [
+            "Embedding",
+            "GlobalAveragePooling1D",
+            "Dense1: 8, activation: softmax",
+            "Dense2: 4, activation: softmax"
+        ],
+        "vocab_size": 10000,
+        "embedding_dim": 4,
+        "epochs": 7,
+        "batch_size": 16,
+        "test_accuracy": 0.8799999952316284
+    },
+    {
+        "layers": [
+            "Embedding",
+            "GlobalAveragePooling1D",
+            "Dense1: 8, activation: softmax",
+            "Dense2: 4, activation: softmax"
+        ],
+        "vocab_size": 10000,
+        "embedding_dim": 8,
+        "epochs": 6,
+        "batch_size": 32,
+        "test_accuracy": 0.877560019493103
+    },
+    {
+        "layers": [
+            "Embedding",
+            "GlobalAveragePooling1D",
+            "Dense1: 4, activation: softmax",
+            "Dense2: 8, activation: softmax"
+        ],
+        "vocab_size": 10000,
+        "embedding_dim": 8,
+        "epochs": 9,
+        "batch_size": 32,
+        "test_accuracy": 0.8777199983596802
+    }
+]

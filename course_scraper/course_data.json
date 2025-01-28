@@ -1,0 +1,93 @@
+[
+    {
+        "Kursnummer": "851-0655-00 G",
+        "Titel": "ETH Global Development Summer SchoolThe summer school will take place [DATUM] in Ghana.",
+        "Dozierende": "A. Rom, \n P. Krütli, \n M. Makridis, \n M. Mertens",
+        "Kommentar 1": "N/A",
+        "Kommentar 2": "The summer school will take place [DATUM] in Ghana.",
+        "Wochentag": "N/A",
+        "Uhrzeit": "N/A",
+        "Wo": "N/A",
+        "Kurzbeschreibung": "The ETH Global Development Summer School provides young researchers with the opportunity to work on current and sustainability-related topics in interdisciplinary and intercultural teams. Focus is given not only to teaching theoretical knowledge but also to solving specific case studies.",
+        "Kreditpunkte": "3 KP",
+        "Einschränkungen": "N/A"
+    },
+    {
+        "Kursnummer": "851-0732-01 S",
+        "Titel": "Workshop and Lecture Series in Law and Economics**together with University of Zurich**",
+        "Dozierende": "A. Stremitzer",
+        "Kommentar 1": "N/A",
+        "Kommentar 2": "**together with University of Zurich**",
+        "Wochentag": "Di/2w",
+        "Uhrzeit": "16:15-18:00",
+        "Wo": "UNI ZH .",
+        "Kurzbeschreibung": "The Workshop and Lectures Series in Law and Economics is a joint seminar of ETH Zurich and the Universities of Basel, Lucerne, St. Gallen and Zurich. Legal, economics, and psychology scholars will give a lecture and/or present their current research. All speakers are internationally well-known experts from Europe, the U.S. and beyond.",
+        "Kreditpunkte": "2 KP",
+        "Einschränkungen": "N/A"
+    },
+    {
+        "Kursnummer": "851-0585-38 V",
+        "Titel": "Data Science in Techno-Socio-Economic Systems",
+        "Dozierende": "D. Helbing, \n D. Carpentras, \n V. Vasiliauskaite",
+        "Kommentar 1": "This course is thought be for students in the 5th semester or above with quantitative skills and interests in modeling and computer simulations.Particularly suitable for students of D-INFK, D-ITET, D-MAVT, D-MTEC, D-PHYS",
+        "Kommentar 2": "N/A",
+        "Wochentag": "Mo",
+        "Uhrzeit": "16:15-18:00",
+        "Wo": "ML H 44 »",
+        "Kurzbeschreibung": "This course introduces how techno-socio-economic systems in our complex society can be better understood with techniques and tools of data science. Students shall learn how the fundamentals of data science are used to give insights into the research of complexity science, computational social science, economics, finance, and others.",
+        "Kreditpunkte": "3 KP",
+        "Einschränkungen": "Plätze beschränkt. Spezielles Auswahlverfahren."
+    },
+    {
+        "Kursnummer": "227-0664-00 G",
+        "Titel": "Technology and Policy of Electrical Energy Storage",
+        "Dozierende": "V. Wood, \n T. Schmidt",
+        "Kommentar 1": "N/A",
+        "Kommentar 2": "N/A",
+        "Wochentag": "Mi",
+        "Uhrzeit": "16:15-18:00",
+        "Wo": "ML D 28 »",
+        "Kurzbeschreibung": "With the global emphasis on decreasing CO2 emissions, achieving fossil fuel independence and growing the use of renewables, developing & implementing energy storage solutions for electric mobility & grid stabilization represent a key technology & policy challenge. This course uses lithium ion batteries as a case study to understand the interplay between technology, economics, and policy.",
+        "Kreditpunkte": "3 KP",
+        "Einschränkungen": "N/A"
+    },
+    {
+        "Kursnummer": "851-0732-03 V",
+        "Titel": "Intellectual Property: An Introduction",
+        "Dozierende": "R. Zingg",
+        "Kommentar 1": "Particularly suitable for students of D-ARCH, D-BIOL, D-CHAB, D-INFK, D-ITET, D-MAVT, D- MATL, D-MTEC.",
+        "Kommentar 2": "N/A",
+        "Wochentag": "Di",
+        "Uhrzeit": "10:15-12:00",
+        "Wo": "NO C 60 »",
+        "Kurzbeschreibung": "The course introduces students to the basics of the intellectual property system and of innovation policy. Areas covered include patent, copyright, trademark, design, know-how protection, open source, and technology transfer. The course looks at Swiss, European, U.S. and international law and uses examples from a broad range of technologies. Insights can be used in academia, industry or start-ups.",
+        "Kreditpunkte": "2 KP",
+        "Einschränkungen": "Maximal 150"
+    },
+    {
+        "Kursnummer": "853-0058-00 V",
+        "Titel": "Schweizer Aussen- & Sicherheitspolitik seit 1945",
+        "Dozierende": "A. Wenger",
+        "Kommentar 1": "N/A",
+        "Kommentar 2": "N/A",
+        "Wochentag": "Mi",
+        "Uhrzeit": "10:15-12:00",
+        "Wo": "CAB G 11 »",
+        "Kurzbeschreibung": "Diese Lehrveranstaltung gibt einen Überblick über die Grundzüge der Schweizer Aussen- und Sicherheitspolitik seit 1945. Im Zentrum stehen die Entstehung und Weiterentwicklung der sicherheitspolitischen Strategien und Instrumente unter Berücksichtigung des jeweiligen historischen Umfeldes.",
+        "Kreditpunkte": "3 KP",
+        "Einschränkungen": "N/A"
+    },
+    {
+        "Kursnummer": "851-0735-16 S",
+        "Titel": "Start-Ups und SteuernUnregelmässige Lehrveranstaltung.",
+        "Dozierende": "P. Pamini",
+        "Kommentar 1": "N/A",
+        "Kommentar 2": "Unregelmässige Lehrveranstaltung.",
+        "Wochentag": "Di/2w",
+        "Uhrzeit": "12:15-16:00",
+        "Wo": "ETZ J 91 »",
+        "Kurzbeschreibung": "Der Erfolg oder Misserfolg von Start-Ups hängt nicht nur von einer Erfindung ab. Die Gründer müssen auch eine Vielzahl organisatorischer und juristischer Hürden überwinden. Anhand Theorie und Fallbeispielen lernen Studierende in diesem Seminar die Relevanz steuerrechtlicher Rahmenbedingungen bei Unternehmensgründungen kennen, inklusive wie der Gesetzgeber innovative Unternehmungen fördern kann.",
+        "Kreditpunkte": "2 KP",
+        "Einschränkungen": "Maximal 32"
+    }
+]

@@ -1,0 +1,29 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "preview_manim",
+            "type": "shell",
+            "command": "manim -ql scene.py",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "render_manim_2k",
+            "type": "shell",
+            "command": "manim -qp scene.py",
+            "problemMatcher": [],
+        },
+        {
+            "label": "last_frame_manim",
+            "type": "shell",
+            "command": "manim -pqh -s scene.py",
+            "problemMatcher": [],
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+Messwerte Föhnindex, 10 min Wert
+********************************
+https://data.geo.admin.ch/ch.meteoschweiz.messwerte-foehn-10min/ch.meteoschweiz.messwerte-foehn-10min_de.csv  (Format csv)
+https://data.geo.admin.ch/ch.meteoschweiz.messwerte-foehn-10min/ch.meteoschweiz.messwerte-foehn-10min_de.json (Format GeoJSON)
+
+
+Valeurs mesurées index de foehn, 10 min
+***************************************
+https://data.geo.admin.ch/ch.meteoschweiz.messwerte-foehn-10min/ch.meteoschweiz.messwerte-foehn-10min_fr.csv  (Format csv)
+https://data.geo.admin.ch/ch.meteoschweiz.messwerte-foehn-10min/ch.meteoschweiz.messwerte-foehn-10min_fr.json (Format GeoJSON)
+
+
+Valori attuali dell'indice del favonio, 10 min
+**********************************************
+https://data.geo.admin.ch/ch.meteoschweiz.messwerte-foehn-10min/ch.meteoschweiz.messwerte-foehn-10min_it.csv  (Format csv)
+https://data.geo.admin.ch/ch.meteoschweiz.messwerte-foehn-10min/ch.meteoschweiz.messwerte-foehn-10min_it.json (Format GeoJSON)
+
+
+Measurement values foehn index, 10 min 
+**************************************
+https://data.geo.admin.ch/ch.meteoschweiz.messwerte-foehn-10min/ch.meteoschweiz.messwerte-foehn-10min_en.csv  (Format csv)
+https://data.geo.admin.ch/ch.meteoschweiz.messwerte-foehn-10min/ch.meteoschweiz.messwerte-foehn-10min_en.json (Format GeoJSON)
+
