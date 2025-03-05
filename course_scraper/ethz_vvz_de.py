@@ -13,11 +13,8 @@ def scrape_course_info(url):
 
     course_info = {}
     
-    kursnummer = soup.select_one(".inside > table:nth-child(7) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1)")
-    course_info["Kursnummer"] = kursnummer.text.strip() if kursnummer else "N/A"
-
-    titel = soup.select_one(".inside > table:nth-child(7) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2)")
-    course_info["Titel"] = titel.text.strip() if titel else "N/A"
+    kursnummer_titel = soup.select_one("#contentTop > h1:nth-child(1)")
+    course_info["Kursnummer+Titel"] = kursnummer_titel.text.strip() if kursnummer_titel else "N/A"
 
     dozierende = soup.find("td", class_="dozierende")
     course_info["Dozierende"] = dozierende.text.strip() if dozierende else "N/A"
@@ -40,7 +37,11 @@ def scrape_course_info(url):
     kurzbeschreibung = soup.select_one(".inside > table:nth-child(10) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)")
     course_info["Kurzbeschreibung"] = kurzbeschreibung.text.strip() if kurzbeschreibung else "N/A"
 
-    kreditpunkte = soup.select_one(".inside > table:nth-child(13) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(2)")
+    kreditpunkte = None
+    for tr in soup.select(".inside > table:nth-child(13) > tbody:nth-child(1) > tr"):
+        if tr.select_one("td:nth-child(1)").text.strip() == "ECTS Kreditpunkte":
+            kreditpunkte = tr.select_one("td:nth-child(2)")
+            break
     course_info["Kreditpunkte"] = kreditpunkte.text.strip() if kreditpunkte else "N/A"
 
     einschraenkungen = soup.select_one(".inside > table:nth-child(22) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)")
@@ -55,24 +56,22 @@ def fix_urls(file_path):
     # Clean and fix URLs
     cleaned_urls = set()
     for url in urls:
+        url = url.strip()
         if 'ansicht=ALLE' not in url:
-            # Update URL to include ansicht=ALLE
-            url_parts = url.split('&')
-            for i, part in enumerate(url_parts):
-                if 'ansicht=' in part:
-                    url_parts[i] = 'ansicht=ALLE'
-            url = '&'.join(url_parts)
-
-        cleaned_urls.add(url.strip())
+            if '?' in url:
+                url += '&ansicht=ALLE'
+            else:
+                url += '?ansicht=ALLE'
+        cleaned_urls.add(url)
 
     # Write cleaned URLs back to the file
     with open(file_path, 'w') as file:
         file.write('\n'.join(cleaned_urls))
 
-fix_urls('urls.txt')
+fix_urls('eth_urls.txt')
 
 # Read URLs from the urls.txt file and remove duplicates
-with open("urls.txt", "r", encoding="utf-8") as file:
+with open("eth_urls.txt", "r", encoding="utf-8") as file:
     urls = list(set(url.strip() for url in file.read().splitlines()))
 
 # Scrape course information for each URL
