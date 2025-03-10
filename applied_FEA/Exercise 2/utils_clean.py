@@ -118,11 +118,11 @@ def plot_truss(node_coords, connectivity, displacements, scale_factor, force_BCs
         y_def = [deformed_coords[i-1, 1], deformed_coords[j-1, 1]]
         plt.plot(x_def, y_def, 'r--o', label='Deformed' if idx == 0 else "")
         
-        # Calculate the center of the deformed element for labeling
-        center_x_def = (x_def[0] + x_def[1]) / 2
-        center_y_def = (y_def[0] + y_def[1]) / 2
-        # Add the label for the deformed element
-        plt.text(center_x_def, center_y_def, f'Element {idx+1}', color='red', fontsize=12, alpha=0.3)
+        # # Calculate the center of the deformed element for labeling
+        # center_x_def = (x_def[0] + x_def[1]) / 2
+        # center_y_def = (y_def[0] + y_def[1]) / 2
+        # # Add the label for the deformed element
+        # plt.text(center_x_def, center_y_def, f'Element {idx+1}', color='red', fontsize=12, alpha=0.3)
     
     # Plot force vectors from force_BCs
     for node_idx in range(n_nodes):
@@ -146,6 +146,40 @@ def plot_truss(node_coords, connectivity, displacements, scale_factor, force_BCs
     plt.savefig(f"Exercise 2/Figures/{name}.png", dpi=300)
     plt.show()
 
+def preview_truss(node_coords, connectivity):
+    """
+    Plot the undeformed truss structure.
+    """
+    n_nodes = node_coords.shape[0]
+    
+    # Create a figure and axis
+    plt.figure(figsize=(8, 8))
+    
+    # Plot the original truss
+    for idx, (i, j) in enumerate(connectivity):
+        x = [node_coords[i-1, 0], node_coords[j-1, 0]]
+        y = [node_coords[i-1, 1], node_coords[j-1, 1]]
+        plt.plot(x, y, 'b-o', label='Undeformed' if idx == 0 else "")
+        
+        # Calculate the center of the element for labeling
+        center_x = (x[0] + x[1]) / 2
+        center_y = (y[0] + y[1]) / 2
+        # Add the label for the element
+        plt.text(center_x, center_y, f'Element {idx+1}', color='blue', fontsize=12)
+    
+    # Add node labels (1 to n)
+    for i in range(n_nodes):
+        plt.text(node_coords[i, 0], node_coords[i, 1], f'Node {i+1}',
+                 color='darkgreen', fontsize=12, fontweight='bold',
+                 ha='right', va='bottom')
+    
+    plt.xlabel('X [m]')
+    plt.ylabel('Y [m]')
+    plt.title('Undeformed Truss Structure')
+    plt.legend()
+    plt.grid(True)
+    plt.axis('equal')
+    plt.show()
 
 def VisualizeK(K, title) -> None:
     import pandas as pd
@@ -159,4 +193,3 @@ def VisualizeK(K, title) -> None:
     sns.heatmap(K, annot=True, cmap="YlGnBu", cbar=True)
     plt.title(title)
     plt.show()
-    

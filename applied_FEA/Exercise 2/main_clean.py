@@ -5,27 +5,21 @@ from utils_clean import *
 # Node coordinates
 node_coords = np.array([
     [0, 0],                  # Node 1
-    [3, 0],                  # Node 2
-    [6.2, 0],                # Node 3
-    [9.2, 0],                # Node 4
-    [2, (1.8/4.6)*2],        # Node 5
-    [7.2, (1.8/4.6)*2],      # Node 6
-    [4.6, 1.8],              # Node 7
+    [0, 1],                  # Node 2
+    [2, 1],                # Node 3
+    [2, 0],                  # Node 4
+    [1, 0],                # Node 5
 ])
 
 # Connectivity matrix for the truss
 connectivity = [
     (1, 2),
     (1, 5),
-    (2, 3),
     (2, 5),
-    (2, 7),
+    (2, 3),
     (3, 4),
-    (3, 6),
-    (3, 7),
-    (4, 6),
-    (5, 7),
-    (6, 7),
+    (3, 5),
+    (4, 5),    
 ]
 
 # Define different Young's modulus for each element
@@ -37,10 +31,6 @@ Es = [
     210000,  # [MPa] Element 5
     210000,  # [MPa] Element 6
     210000,  # [MPa] Element 7
-    210000,  # [MPa] Element 8
-    210000,  # [MPa] Element 9
-    210000,  # [MPa] Element 10
-    210000,  # [MPa] Element 11
 ]
 
 Areas = [
@@ -51,17 +41,18 @@ Areas = [
     1000,  # [mm^2] Element 5
     1000,  # [mm^2] Element 6
     1000,  # [mm^2] Element 7
-    1000,  # [mm^2] Element 8
-    1000,  # [mm^2] Element 9
-    1000,  # [mm^2] Element 10
-    1000,  # [mm^2] Element 11
 ]
+
+# preview_truss(node_coords, connectivity)
+
+
+
 
 # Boundary conditions (None = unknown displacement/force)
 # [u1, v1, u2, v2, u3, v3, u4, v4] [mm]
-disp_BCs = [0, 0, None, None, None, None, 0, 0, 0, None, 0, None, 0, None]
+disp_BCs = [None, 0, None, None, None, None, 0, 0, None, None]
 # [F1x, F1y, F2x, F2y, F3x, F3y, F4x, F4y] [kN]
-force_BCs = [None, -1.5, 0, 0, 0, 0, None, -1.5, None, -4., None, -4., None, -5.]
+force_BCs = [0, None, -10, 0, 0, 0, None, None, 0, 0]
 
 
 
@@ -114,4 +105,4 @@ print("Reaction Forces:\n", F.reshape(-1, 2))
 
 # Visualization (with scale factor for displacements)
 scale_factor = 500000  # Increase to exaggerate displacements
-plot_truss(node_coords, connectivity, U, scale_factor, force_BCs, name="Fink Truss")
+plot_truss(node_coords, connectivity, U, scale_factor, force_BCs, name="Triangle")
