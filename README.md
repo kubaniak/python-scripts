@@ -4,7 +4,7 @@ This repository contains a collection of small Python scripts, tutorials, and mi
 
 ## Directory Summary
 
-- **IMDB_movie_revies_text_classification**: Text classification models for IMDB movie reviews, including hyperparameter tuning with Optuna.
+- **IMDB_movie_revies_text_classification**: Text classification models for IMDB movie reviews, including hyperparameter tuning with Optuna. Note: The directory name contains a typo (“revies” instead of “reviews”) and is kept as-is for compatibility.
 - **WordFinder**: Utility to check if words exist in an English dictionary using the NLTK corpus.
 - **applied_FEA**: Scripts and exercises related to Applied Finite Element Analysis (FEA).
 - **cifar-10_image_classification**: Image classification on the CIFAR-10 dataset using deep learning.
