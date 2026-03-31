@@ -16,8 +16,8 @@ def calculate_lengths_angles(node_coords, connectivity):
 
     for (n1, n2) in connectivity:
         # Node coordinates (subtract 1 to account for zero-indexing)
-        x1, y1 = node_coords[n1 - 1]
-        x2, y2 = node_coords[n2 - 1]
+        x1, y1 = node_coords[n1]
+        x2, y2 = node_coords[n2]
         
         # Calculate length (Euclidean distance)
         length = np.sqrt((x2 - x1)**2 + (y2 - y1)**2)
@@ -51,8 +51,8 @@ def PlaneTrussAssemble(K, k, i, j) -> np.ndarray:
     """
     Assemble the element stiffness matrix into the global stiffness matrix.
     """
-    idx_i = [2 * i - 2, 2 * i - 1]
-    idx_j = [2 * j - 2, 2 * j - 1]
+    idx_i = [2 * i, 2 * i + 1]
+    idx_j = [2 * j, 2 * j + 1]
     
     # Assembling the stiffness matrix into global matrix
     K[np.ix_(idx_i, idx_i)] += k[:2, :2]
@@ -101,8 +101,8 @@ def plot_truss(node_coords, connectivity, displacements, scale_factor, force_BCs
     
     # Plot the original truss
     for idx, (i, j) in enumerate(connectivity):
-        x = [node_coords[i-1, 0], node_coords[j-1, 0]]
-        y = [node_coords[i-1, 1], node_coords[j-1, 1]]
+        x = [node_coords[i, 0], node_coords[j, 0]]
+        y = [node_coords[i, 1], node_coords[j, 1]]
         plt.plot(x, y, 'b-o', label='Undeformed' if idx == 0 else "")
         
         # Calculate the center of the element for labeling
@@ -114,16 +114,10 @@ def plot_truss(node_coords, connectivity, displacements, scale_factor, force_BCs
     # Plot the deformed truss
     deformed_coords = node_coords + disp * scale_factor
     for idx, (i, j) in enumerate(connectivity):
-        x_def = [deformed_coords[i-1, 0], deformed_coords[j-1, 0]]
-        y_def = [deformed_coords[i-1, 1], deformed_coords[j-1, 1]]
+        x_def = [deformed_coords[i, 0], deformed_coords[j, 0]]
+        y_def = [deformed_coords[i, 1], deformed_coords[j, 1]]
         plt.plot(x_def, y_def, 'r--o', label='Deformed' if idx == 0 else "")
         
-        # # Calculate the center of the deformed element for labeling
-        # center_x_def = (x_def[0] + x_def[1]) / 2
-        # center_y_def = (y_def[0] + y_def[1]) / 2
-        # # Add the label for the deformed element
-        # plt.text(center_x_def, center_y_def, f'Element {idx+1}', color='red', fontsize=12, alpha=0.3)
-    
     # Plot force vectors from force_BCs
     for node_idx in range(n_nodes):
         Fx = force_BCs[2 * node_idx]   # x-force component
@@ -157,8 +151,8 @@ def preview_truss(node_coords, connectivity):
     
     # Plot the original truss
     for idx, (i, j) in enumerate(connectivity):
-        x = [node_coords[i-1, 0], node_coords[j-1, 0]]
-        y = [node_coords[i-1, 1], node_coords[j-1, 1]]
+        x = [node_coords[i, 0], node_coords[j, 0]]
+        y = [node_coords[i, 1], node_coords[j, 1]]
         plt.plot(x, y, 'b-o', label='Undeformed' if idx == 0 else "")
         
         # Calculate the center of the element for labeling

@@ -12,38 +12,38 @@
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "402-0035-00L  \r\n       Physik",
+        "Course Number and Title": "402-0035-00L  \r\n       Physics",
         "Lecturers": "L. Degiorgi",
         "Comment 1": "N/A",
         "Comment 2": "Die Vorlesung findet im HPH G 1 mit Videoüebtragung ins HPV G 5.",
         "Weekday": "Di",
         "Time": "14:45-17:30",
         "Where": "HPH G 1 »",
-        "Short Description": "Einsemestrige Einführung in die Grundlagen und Denkweise der Physik: Elektrizität und Magnetismus, elektromagnetische Wellen, Wellen und Doppler Effekt. Vertiefung in ausgewählte Themen der modernen Physik von grosser technologischer oder industrieller Bedeutung.",
+        "Short Description": "One-semester introduction to the fundamentals and thinking of physics: electricity and magnetism, electromagnetic waves, waves and the Doppler effect. In-depth study of selected topics in modern physics of great technological or industrial importance.",
         "ECTS Credits": "5 KP",
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "401-0172-00L  \r\n       Lineare Algebra II",
+        "Course Number and Title": "401-0172-00L  \r\n       Linear Algebra II",
         "Lecturers": "N. Hungerbühler",
         "Comment 1": "N/A",
         "Comment 2": "Do 14-16 im ETA F 5 mit Videoübertragung ins ETF E 1.",
         "Weekday": "Do",
         "Time": "14:15-16:00",
         "Where": "ETA F 5 »",
-        "Short Description": "Die Vorlesung ist die Fortsetzung von Lineare Algebra I. Die Lineare Algebra ist ein unverzichtbares Werkzeug der Ingenieurmathematik. Die Vorlesung bietet einen Einstieg in die Theorie mit zahlreichen Anwendungen. Die erlernten Begriffe werden in den begleitenden Übungen gefestigt.",
+        "Short Description": "This lecture is the continuation of Linear Algebra I. Linear algebra is an indispensable tool in engineering mathematics. The lecture offers an introduction to the theory with numerous applications. The concepts learned are consolidated in the accompanying exercises.",
         "ECTS Credits": "6 KP",
         "Restrictions": "Einschränkungen sind unter Gruppen aufgeführt"
     },
     {
-        "Course Number and Title": "151-0714-00L  \r\n       Werkstoffe und Fertigung",
+        "Course Number and Title": "151-0714-00L  \r\n       Materials and Manufacturing",
         "Lecturers": "M. Bambach, \r\n L. Deillon",
         "Comment 1": "N/A",
         "Comment 2": "Vorlesung Mo 12-14 im HG F 7 mit Videoübertragung ins HG F 5 und Fri 10-12 im ETA F 5.",
         "Weekday": "Mo",
         "Time": "12:15-14:00",
         "Where": "HG F 5 »",
-        "Short Description": "Die Vorlesung \"Werkstoffe und Fertigung\" vermittelt den Studierenden die Grundlagen, um Werkstoffe für Anwendungen im Maschinenbau systematisch auszuwählen.",
+        "Short Description": "The lecture \"Materials and Manufacturing\" teaches students the basics for systematically selecting materials for applications in mechanical engineering.",
         "ECTS Credits": "6 KP",
         "Restrictions": "N/A"
     },
@@ -79,7 +79,7 @@
         "Weekday": "Mo",
         "Time": "14:15-16:00",
         "Where": "ML F 36 »",
-        "Short Description": "Physikalische Grundlagen der Kernspaltung und der Kettenreaktion, thermische Auslegung, Aufbau, Funktion, und Betrieb von Kernreaktoren und Kernkraftwerken, Leichtwasserreaktoren und andere Reaktortypen, Konversion und Brüten",
+        "Short Description": "Physical principles of nuclear fission and chain reaction, thermal design, construction, function and operation of nuclear reactors and nuclear power plants, light water reactors and other reactor types, conversion and brewing",
         "ECTS Credits": "4 KP",
         "Restrictions": "N/A"
     },
@@ -99,7 +99,7 @@
         "Course Number and Title": "151-0238-00L  \r\n       Thermodynamics III",
         "Lecturers": "A. Manera, \r\n G. Sansavini",
         "Comment 1": "N/A",
-        "Comment 2": "Gruppeneinteilung erfolgt über myStudies.The exercise will start in the 2nd week of the Semester.                                                                                                                                                                                                                                                                          Zusätzlich wird das Study Center angeboten: Mittwochs 18:15-20:00 ab der 3. Semesterwoche im ETA F 5, wo die Möglichkeit des betreuten Lernens angeboten wird. Im Study Center können Studierende Vorlesungsstoff vor- oder nachbereiten und Übungen lösen.",
+        "Comment 2": "N/A",
         "Weekday": "Do",
         "Time": "12:15-14:00",
         "Where": "ETA F 5 »",
@@ -132,7 +132,7 @@
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "401-0363-10L  \r\n       Analysis III",
+        "Course Number and Title": "401-0363-10L  \r\n       Calculus III",
         "Lecturers": "A. Iozzi",
         "Comment 1": "N/A",
         "Comment 2": "Lectures in HG F7 with video transmission to HG F5.",
@@ -156,38 +156,38 @@
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "252-0833-00L  \r\n       Informatik II",
+        "Course Number and Title": "252-0833-00L  \r\n       Computer Science II",
         "Lecturers": "C. Cotrini Jimenez, \r\n R. Sasse",
         "Comment 1": "Nur für Maschineningenieurwissenschaften BSc (Studienreglement 2022).",
         "Comment 2": "Zusätzlich wird das Study Center angeboten: Donnerstags 18-20 ab der 3. Semesterwoche im HG F1, wo die Möglichkeit des betreuten Lernens angeboten wird. Im Study Center können Studierende Vorlesungsstoff vor- oder nachbereiten und Übungen lösen.",
         "Weekday": "Do",
         "Time": "10:15-12:00",
         "Where": "ETA F 5 »",
-        "Short Description": "Informatik II legt die Grundlage für das Verständnis, den Entwurf und die Analyse von Algorithmen und Datenstrukturen.Zudem gibt es einen Überblick von verschiedenen Programmierkonzepten, wie funktionale Programmierung und statische und dynamisch typisierte Programmiersprachen.",
+        "Short Description": "Computer Science II lays the foundation for understanding, designing and analyzing algorithms and data structures, and provides an overview of various programming concepts such as functional programming and static and dynamically typed programming languages.",
         "ECTS Credits": "4 KP",
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "151-0300-10L  \r\n       Innovationsprojekt",
+        "Course Number and Title": "151-0300-10L  \r\n       Innovation Project",
         "Lecturers": "M. Meboldt",
         "Comment 1": "N/A",
-        "Comment 2": "Einführungsveranstaltung für Innovationsprojekt am Di 19.09.2023 von 09:15  bis 10:00 Uhr im ETA F 5.Die Gruppeneinteilung, der Zeitplan und weitere organisatorische Informationen werden während der Infoveranstaltung in der 1. Semesterwoche bekannt gegeben; Projektarbeit, Werkstattzeit im LEO B 8.1, Online Material und Fragestunden. Details dazu werden im Semester auf Moodle kommuniziert.Die Übungen beginnen in der zweiten Semesterwoche.",
+        "Comment 2": "N/A",
         "Weekday": "Di",
         "Time": "14:15-18:00",
         "Where": "GLC E 24 »",
-        "Short Description": "Die Studierenden durchlaufen einen Produktentwicklungsprozess von der ersten Idee bis zum funktionsfähigen Produkt. Die Teilnehmer lernen eine komplexe Entwicklungsaufgabe im Team (5 Pers.) zu bearbeiten, eine gegebene Problemstellung zu strukturieren und Ideen zu generieren und zu bewerten sowie das Entwerfen und Realisieren des Produktes mit anschliessender Verifikation.",
+        "Short Description": "The students go through a product development process from the initial idea to the functional product. The participants learn to work on a complex development task in a team (5 people), to structure a given problem and to generate and evaluate ideas as well as to design and realize the product with subsequent verification.",
         "ECTS Credits": "3 KP",
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "401-0262-00L  \r\n       Analysis II",
+        "Course Number and Title": "401-0262-00L  \r\n       Calculus II",
         "Lecturers": "A. Steiger",
         "Comment 1": "N/A",
         "Comment 2": "Vorlesung im ETA F 5 mit Videoübertragung ins ETF E 1",
         "Weekday": "Mo/2w",
         "Time": "12:15-14:00",
         "Where": "ETA F 5 »",
-        "Short Description": "Einführung in die mathematischen Grundlagen der Ingenieurwissenschaften, soweit sie die Differential- und Integralrechnung betreffen.",
+        "Short Description": "Introduction to the mathematical foundations of engineering as far as they relate to differential and integral calculus.",
         "ECTS Credits": "7 KP",
         "Restrictions": "Einschränkungen sind unter Gruppen aufgeführt"
     },
@@ -204,26 +204,26 @@
         "Restrictions": "Maximal 70"
     },
     {
-        "Course Number and Title": "853-0061-00L  \r\n       Einführung in die Cybersicherheitspolitik",
+        "Course Number and Title": "853-0061-00L  \r\n       Introduction to Cybersecurity Policy",
         "Lecturers": "M. Dunn Cavelty, \r\n F. J. Egloff",
         "Comment 1": "N/A",
         "Comment 2": "N/A",
         "Weekday": "Mo",
         "Time": "10:15-12:00",
         "Where": "HG D 7.2 »",
-        "Short Description": "Die Vorlesung gibt eine Einführung in die globale Politik der Cyber-Sicherheit. Im Zentrum steht die Auseinandersetzung mit der strategischen Nutzung des Cyberraums durch staatliche und nichtstaatliche Akteure (Bedrohungen) und unterschiedliche Antworten auf diese neuen Herausforderungen (Gegenmassnahmen).",
+        "Short Description": "The lecture provides an introduction to the global politics of cyber security. The focus is on the strategic use of cyberspace by state and non-state actors (threats) and different responses to these new challenges (countermeasures).",
         "ECTS Credits": "3 KP",
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "151-0051-00L  \r\n       Thermodynamik I",
+        "Course Number and Title": "151-0051-00L  \r\n       Thermodynamics I",
         "Lecturers": "A. Bardow, \r\n C. Müller",
         "Comment 1": "N/A",
         "Comment 2": "Vorlesung im ML D 28 mit Videoübertragung ins ML E 12.",
         "Weekday": "Do",
         "Time": "10:15-12:00",
         "Where": "ML D 28 »",
-        "Short Description": "Einführung in die Theorie und in die Grundlagen der technischen Thermodynamik.",
+        "Short Description": "Introduction to the theory and fundamentals of technical thermodynamics.",
         "ECTS Credits": "4 KP",
         "Restrictions": "N/A"
     },
@@ -240,14 +240,14 @@
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "151-0001-20L  \r\n       Bachelor-Arbeit",
+        "Course Number and Title": "151-0001-20L  \r\n       Bachelor Thesis",
         "Lecturers": "Betreuer/innen",
-        "Comment 1": "Nur für Maschineningenieurwissenschaften BSc, Studienreglement 2022.Nur für Studierende mit Fokus-Vertiefung. Betreuer der Bachelor-Arbeit:  Die Betreuerin oder der Betreuer der Bachelor-Arbeit ist ein/e Professor/in des D-MAVT oder eines anderen Departements der Ingenieurwissenschaften. Für die Anmeldung der Bachelor-Arbeiten unter der Betreuung von Professorinnen oder Professoren anderer ingenieurwissenschaftlicher Departemente, die nicht in der Auswahl-Liste aufgeführt sind, wenden Sie sich bitte an die Studienadministration: info@mavt.ethz.ch",
+        "Comment 1": "N/A",
         "Comment 2": "N/A",
         "Weekday": "N/A",
         "Time": "N/A",
         "Where": "N/A",
-        "Short Description": "Die Bachelor-Arbeit wird als Abschluss im 6. Semester durchgeführt. Sie entspricht einem Umfang von 480 Stunden und kann in Teil- oder Vollzeit durchgeführt werden.",
+        "Short Description": "The Bachelor's thesis is completed in the 6th semester. It corresponds to 480 hours and can be completed part-time or full-time.",
         "ECTS Credits": "16 KP",
         "Restrictions": ": Für Fachstudierende und Hörer/-innen ist eine Spezialbewilligung der Dozierenden notwendig"
     },
@@ -259,7 +259,7 @@
         "Weekday": "Mi",
         "Time": "10:15-12:00",
         "Where": "IFW A 36 »",
-        "Short Description": "Die meisten Problemstellungen im Ingenieurwesen sind nichtlinearer Natur. Die Nichtlinearitäten werden hauptsächlich durch nichtlineares Werkstoffverhalten, Kontaktbedingungen und Strukturinstabilitäten hervorgerufen. Im Rahmen dieser Vorlesung  werden die theoretischen Grundlagen der nichtlinearen Finite-Element-Methoden zur Lösung von solchen Problemstellungen vermittelt.",
+        "Short Description": "Most problems in engineering are non-linear in nature. The nonlinearities are mainly caused by nonlinear material behavior, contact conditions and structural instabilities. This lecture teaches the theoretical principles of non-linear finite element methods for solving such problems.",
         "ECTS Credits": "4 KP",
         "Restrictions": "N/A"
     },
@@ -295,7 +295,7 @@
         "Weekday": "Do",
         "Time": "14:15-18:00",
         "Where": "ML H 44 »",
-        "Short Description": "Technologie der virtuellen Realität. Menschliche Faktoren, Erzeugung virtueller Welten, Beleuchtungsmodelle, Display- und Beschallungssysteme, Tracking, haptische/taktile Interaktion, Motion Platforms, virtuelle Prototypen, Datenaustausch, VR-Komplettsysteme, Augmented Reality; Kollaborationssysteme; VR und Design; Umsetzung der VR in der Industrie; Human COmputer Interfaces (HCI).",
+        "Short Description": "Virtual reality technology. Human factors, creation of virtual worlds, lighting models, display and sound systems, tracking, haptic/tactile interaction, motion platforms, virtual prototypes, data exchange, complete VR systems, augmented reality; collaboration systems; VR and design; implementation of VR in industry; human computer interfaces (HCI).",
         "ECTS Credits": "4 KP",
         "Restrictions": "N/A"
     },
@@ -348,14 +348,14 @@
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "227-0075-00L  \r\n       Elektrotechnik I",
+        "Course Number and Title": "227-0075-00L  \r\n       Electrical Engineering I",
         "Lecturers": "J. Leuthold",
         "Comment 1": "N/A",
         "Comment 2": "Die Übungen zu \"Elektrotechnik I\" beginnen in der 2. Semesterwoche.Zusätzlich wird das Study Center angeboten: Mittwochs 18:00 - 20:00 Uhr ab der 3. Semesterwoche im HG F 5 wo die Möglichkeit des betreuten Lernens angeboten wird. Im Study Center können Studierende Vorlesungsstoff vor- oder nachbereiten und Übungen lösen.",
         "Weekday": "Fr",
         "Time": "14:15-16:00",
         "Where": "ETA F 5 »",
-        "Short Description": "Grundlagenvorlesung im Fachgebiet Elektrotechnik mit folgenden Themen: Konzepte von Spannung und Strom; Analyse von Gleich- und Wechselstromnetzwerken; Serie- und Parallelschaltungen von (komplexen) Widerstandsnetzwerken; Kirchhoff'sche Gesetze und andere Netzwerktheoreme; Transiente Vorgänge; Grundlagen elektrischer und magnetischer Felder;",
+        "Short Description": "Basic lecture in the field of electrical engineering with the following topics: Concepts of voltage and current; analysis of direct and alternating current networks; series and parallel circuits of (complex) resistance networks; Kirchhoff's laws and other network theorems; transient processes; fundamentals of electric and magnetic fields;",
         "ECTS Credits": "4 KP",
         "Restrictions": "N/A"
     },
@@ -372,26 +372,26 @@
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "401-0171-00L  \r\n       Lineare Algebra I",
+        "Course Number and Title": "401-0171-00L  \r\n       Linear Algebra I",
         "Lecturers": "N. Hungerbühler",
         "Comment 1": "N/A",
         "Comment 2": "Gruppeneinteilung erfolgt über myStudies.Vorlesung im ETA F 5 mit Videoübertragung ins ETF E 1.",
         "Weekday": "Di",
         "Time": "10:15-12:00",
         "Where": "ETA F 5 »",
-        "Short Description": "Die Lineare Algebra ist ein unverzichtbares Werkzeug der Ingenieurmathematik. Die Vorlesung bietet einen Einstieg in die Theorie mit zahlreichen Anwendungen. Die erlernten Begriffe werden in den begleitenden Übungen gefestigt. Die Vorlesung wird als Lineare Algebra II weitergeführt.",
+        "Short Description": "Linear algebra is an indispensable tool in engineering mathematics. The lecture offers an introduction to the theory with numerous applications. The concepts learned are consolidated in the accompanying exercises. The lecture is continued as Linear Algebra II.",
         "ECTS Credits": "6 KP",
         "Restrictions": "Einschränkungen sind unter Gruppen aufgeführt"
     },
     {
-        "Course Number and Title": "151-3222-00L  \r\n       Maschinenkonstruktion",
+        "Course Number and Title": "151-3222-00L  \r\n       Machine Design",
         "Lecturers": "M. Meboldt, \r\n Q. Lohmeyer",
         "Comment 1": "N/A",
         "Comment 2": "Vorlesung im HG F 1 mit Videoübertragung ins HG F3.",
         "Weekday": "Di",
         "Time": "10:15-12:00",
         "Where": "HG F 1 »",
-        "Short Description": "Die Vorlesung vermittelt die Grundlagen der Entwicklung und Konstruktion technischer Systeme. Für die wichtigsten Maschinenelemente werden Wirkprinzip, Funktionen, Einsatzgebiete und Berechnungsgrundlagen vermittelt. Darauf aufbauend werden anhand von Fallbeispielen aus der Praxis die Grundlagen der Entwicklung, Gestaltung und Fertigung von Produkten behandelt.",
+        "Short Description": "The lecture teaches the fundamentals of the development and design of technical systems. The operating principle, functions, areas of application and calculation principles are taught for the most important machine elements. Building on this, the fundamentals of the development, design and manufacture of products are dealt with using practical case studies.",
         "ECTS Credits": "5 KP",
         "Restrictions": "N/A"
     },
@@ -420,14 +420,14 @@
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "151-0364-00L  \r\n       Strukturlabor",
+        "Course Number and Title": "151-0364-00L  \r\n       Structural Laboratory",
         "Lecturers": "M. Zogg",
         "Comment 1": "N/A",
         "Comment 2": "N/A",
         "Weekday": "Do",
         "Time": "14:15-17:00",
         "Where": "IFW C 31 »",
-        "Short Description": "Teams mit 2 - 3 Studenten müssen eine möglichst leichte Struktur, welche den gestellten Anforderungen genügt, entwerfen, dimensionieren und herstellen. Ein Flugzeug-Flügelholm-Prototyp und später ein zweiter verbesserter Holm werden getestet und im Hinblick auf konstruktive und strukturmechanische Aspekte beurteilt.",
+        "Short Description": "Teams of 2 - 3 students must design, dimension and manufacture a structure that is as light as possible and meets the specified requirements. An airplane wing spar prototype and later a second improved spar are tested and evaluated with regard to design and structural-mechanical aspects.",
         "ECTS Credits": "4 KP",
         "Restrictions": "Maximal 26"
     },
@@ -444,14 +444,14 @@
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "401-0261-00L  \r\n       Analysis I",
+        "Course Number and Title": "401-0261-00L  \r\n       Calculus I",
         "Lecturers": "A. Steiger",
         "Comment 1": "N/A",
         "Comment 2": "Montag und Mittwoch im ETA F 5 mit Videoübertragung ins ETF C 1.Freitag im ETA F 5 mit Videoübertragung ins ETF E 1.",
         "Weekday": "Mo/2w",
         "Time": "12:15-14:00",
         "Where": "ETA F 5 »",
-        "Short Description": "Differential- und Integralrechnung von Funktionen einer und mehrerer Variablen; Vektoranalysis; gewöhnliche Differentialgleichungen erster und höherer Ordnung, Differentialgleichungssysteme; Potenzreihen. In jedem Teilbereich eine grosse Anzahl von Anwendungsbeispielen aus Mechanik, Physik und anderen Lehrgebieten des Ingenieurstudiums.",
+        "Short Description": "Differential and integral calculus of functions of one and several variables; vector analysis; ordinary differential equations of first and higher order, systems of differential equations; power series. In each section, a large number of application examples from mechanics, physics and other areas of engineering studies.",
         "ECTS Credits": "7 KP",
         "Restrictions": "Einschränkungen sind unter Gruppen aufgeführt"
     },
@@ -468,51 +468,39 @@
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "151-0501-03L  \r\n       Mechanik I",
+        "Course Number and Title": "151-0501-03L  \r\n       Mechanics I",
         "Lecturers": "R. Hopf, \r\n E. Mazza",
         "Comment 1": "N/A",
         "Comment 2": "Vorlesung: Mo und Di im ETA F 5 mit Videoübertragung ins ETF E 1In der ersten Semesterwoche fällt das Kolloquium aus und wird durch eine Doppelstunde Vorlesung Di 14-16 ersetzt.",
         "Weekday": "Mo",
         "Time": "10:15-12:00",
         "Where": "ETA F 5 »",
-        "Short Description": "Grundlagen: Lage eines materiellen Punktes; Geschwindigkeit; Kinematik starrer Körper; Kräfte, Reaktionsprinzip; LeistungStatik: Kräftegruppen und Momente; Prinzip der virtuellen Leistungen, Ruhelage und Gleichgewicht, Hauptsatz der Statik; Lagerbindungen und Lagerkräfte; Parallele Kräfte und Schwerpunkt; Statik der Systeme; Fachwerke; Reibung; Seilstatik; Beanspruchung in Stabträgern.",
+        "Short Description": "Fundamentals: Position of a material point; velocity; kinematics of rigid bodies; forces, reaction principle; power statics: force groups and moments; principle of virtual powers, rest position and equilibrium, main theorem of statics; bearing bonds and bearing forces; parallel forces and center of gravity; statics of systems; trusses; friction; rope statics; stress in beam girders.",
         "ECTS Credits": "6 KP",
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "252-0832-00L  \r\n       Informatik I",
+        "Course Number and Title": "252-0832-00L  \r\n       Computer Science I",
         "Lecturers": "M. Fischer, \r\n R. Sasse",
         "Comment 1": "N/A",
         "Comment 2": "Die Übungen beginnen in der zweiten Semesterwoche.Zusätzlich wird das Study Center angeboten: Mittwochs 18-20 ab der 3. Semesterwoche im HG F 1, wo die Möglichkeit des betreuten Lernens angeboten wird. Im Study Center können Studierende Vorlesungsstoff vor- oder nachbereiten und Übungen lösen.",
         "Weekday": "Mi",
         "Time": "10:15-12:00",
         "Where": "ETA F 5 »",
-        "Short Description": "Die Vorlesung bietet eine Einführung in das Programmieren mit einem Fokus auf systematischem algorithmischem Problemlösen. Lehrsprache ist C++. Es wird keine Programmiererfahrung vorausgesetzt.",
+        "Short Description": "The lecture offers an introduction to programming with a focus on systematic algorithmic problem solving. The teaching language is C++. No programming experience is required.",
         "ECTS Credits": "4 KP",
         "Restrictions": "N/A"
     },
     {
-        "Course Number and Title": "151-0502-00L  \r\n       Mechanik II",
+        "Course Number and Title": "151-0502-00L  \r\n       Mechanics II",
         "Lecturers": "D. Mohr",
         "Comment 1": "N/A",
         "Comment 2": "Vorlesung Mo 10-12 und Mi 10-12 im ETA F 5 mit Videoübertragung ins ETF E 1.",
         "Weekday": "Mo",
         "Time": "10:15-12:00",
         "Where": "ETA F 5 »",
-        "Short Description": "Spannungstensor, Verzerrungen, linearelastische Körper, spezielle Biegung prismatischer Balken, numerische Methoden, allgemeinere Biegeprobleme, Torsion, Arbeit und Deformationsenergie, Energiesätze und -verfahren, Knickung.",
+        "Short Description": "Stress tensor, distortions, linear elastic bodies, special bending of prismatic beams, numerical methods, more general bending problems, torsion, work and deformation energy, energy theorems and methods, buckling.",
         "ECTS Credits": "6 KP",
-        "Restrictions": "N/A"
-    },
-    {
-        "Course Number and Title": "151-0973-00L  \r\n       Einführung in die Verfahrenstechnik",
-        "Lecturers": "F. Donat, \r\n C. Müller",
-        "Comment 1": "N/A",
-        "Comment 2": "Die Lehrveranstaltung beginnt in der zweiten Semesterwoche.",
-        "Weekday": "Mo",
-        "Time": "10:15-12:00",
-        "Where": "ML H 44 »",
-        "Short Description": "Übersicht über die Verfahrenstechnik; Grundlagen und Aufgabenbereiche der Verfahrenstechnik; Prozessführung und Bilanzierung; Übersicht thermischer Trennverfahren und Mehrphasensystemen; Übersicht mechanischer Trennverfahren und granularer Systeme; Einführung in die Reaktionstechnik, Reaktoren und Verweilzeiten.",
-        "ECTS Credits": "4 KP",
         "Restrictions": "N/A"
     }
 ]

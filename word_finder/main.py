@@ -79,7 +79,7 @@ def get_input_strings(url="https://combinations.org/"):
 
 
 if __name__ == "__main__":
-    input_strings = ["es", "ed", "am", "sh", "us", "cla", "te", "ck", "tax", "du", "ens", "por"]
+    input_strings = ["se", "es", "ve", "nds", "nd", "re", "at", "be", "gra", "ho", "dri", "bit"]
 
     # Load the dictionary once
     dictionary = load_dictionary()

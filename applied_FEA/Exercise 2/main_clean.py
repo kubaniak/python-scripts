@@ -2,24 +2,18 @@ import numpy as np
 import math
 from utils_clean import *
 
-# Node coordinates
+# Node coordinates [x, y] [mm]
 node_coords = np.array([
-    [0, 0],                  # Node 1
-    [0, 1],                  # Node 2
-    [2, 1],                # Node 3
-    [2, 0],                  # Node 4
-    [1, 0],                # Node 5
+    [0, 0],                  # Node 0
+    [300, 300],                  # Node 1
+    [0, 300],                # Node 2
 ])
 
 # Connectivity matrix for the truss
 connectivity = [
-    (1, 2),
-    (1, 5),
-    (2, 5),
-    (2, 3),
-    (3, 4),
-    (3, 5),
-    (4, 5),    
+    (0,1), # Element 1
+    (1,2), # Element 2
+    (2,0), # Element 3
 ]
 
 # Define different Young's modulus for each element
@@ -27,32 +21,23 @@ Es = [
     210000,  # [MPa] Element 1
     210000,  # [MPa] Element 2
     210000,  # [MPa] Element 3
-    210000,  # [MPa] Element 4
-    210000,  # [MPa] Element 5
-    210000,  # [MPa] Element 6
-    210000,  # [MPa] Element 7
 ]
 
 Areas = [
-    1000,  # [mm^2] Element 1
-    1000,  # [mm^2] Element 2
-    1000,  # [mm^2] Element 3
-    1000,  # [mm^2] Element 4
-    1000,  # [mm^2] Element 5
-    1000,  # [mm^2] Element 6
-    1000,  # [mm^2] Element 7
+    200,  # [mm^2] Element 1
+    200,  # [mm^2] Element 2
+    200,  # [mm^2] Element 3
 ]
 
-# preview_truss(node_coords, connectivity)
+preview_truss(node_coords, connectivity)
 
 
 
 
-# Boundary conditions (None = unknown displacement/force)
-# [u1, v1, u2, v2, u3, v3, u4, v4] [mm]
-disp_BCs = [None, 0, None, None, None, None, 0, 0, None, None]
-# [F1x, F1y, F2x, F2y, F3x, F3y, F4x, F4y] [kN]
-force_BCs = [0, None, -10, 0, 0, 0, None, None, 0, 0]
+# Boundary conditions (None = unknown displacement/force)# [u0, v0, u1, v1, u2, v2] [mm] - for 3 nodes with 2 DOFs each
+disp_BCs = [0, 0, None, None, 0, 0]
+# [F0x, F0y, F1x, F1y, F2x, F2y] [kN] (0 = internal force)
+force_BCs = [None, None, 0.3, 0, None, None]
 
 
 
