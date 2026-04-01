@@ -12,6 +12,7 @@ This repository contains a collection of small Python scripts, tutorials, and mi
 - **energy_levels_3d_inf_sq_well**: Physics simulation calculating energy levels, combinations, and degeneracies for a particle in a 3D infinite square well.
 - **fluid_sim_python**: Fluid dynamics simulation implementations for both CPU and GPU.
 - **foehndiagram_scrape**: A Scrapy project designed to scrape foehn wind diagrams.
+- **intro_to_FEA**: Scripts and exercises related to Introduction to Finite Element Analysis (FEA).
 - **kite_weather_digest**: Script to scrape kite surfing weather data (e.g., Windguru) and generate a digest.
 - **manim**: Example animation scenes using the Manim library.
 - **memo_fib**: A simple implementation of the Fibonacci sequence using memoization to optimize recursive calls.
